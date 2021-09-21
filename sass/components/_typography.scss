@@ -1,0 +1,70 @@
+$font-primary: "Arvo",
+serif;
+$font-secondary: "Open Sans",
+sans-serif;
+
+$font-size-small: 2rem;
+$font-size-medium: 3rem;
+$font-size-large: 3.5rem;
+$font-size-extra-large: 5rem;
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-primary;
+}
+
+h5,
+p {
+    font-family: $font-secondary;
+}
+
+h1 {
+    font-size: $font-size-extra-large;
+}
+
+h2 {
+    font-size: $font-size-medium;
+}
+
+h3 {
+    font-size: $font-size-large;
+}
+
+h4,
+h5 {
+    font-size: $font-size-medium;
+}
+
+p {
+    font-size: $font-size-small;
+    // line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300;
+    // line-height: 1.5;
+}
+
+h1,
+h2,
+.p--light {
+    color: $color-white;
+}
+
+h3,
+h5,
+.h4--dark {
+    color: $color-black;
+}
+
+h4,
+.h3--primary {
+    color: $color-primary;
+}

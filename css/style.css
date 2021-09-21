@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Arvo", serif;
+}
+
+h5,
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+h4,
+h5 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 300;
+}
+
+h1,
+h2,
+.p--light {
+    color: #fff;
+}
+
+h3,
+h5,
+.h4--dark {
+    color: #000;
+}
+
+h4,
+.h3--primary {
+    color: #ffd000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+img,
+svg {
+    width: 100%;
+}
+
+.header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    margin: 1.6rem auto 0;
+}
+
+.burger-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 5.9rem;
+    height: 5.9rem;
+    border-radius: 50%;
+    background-color: #ffd000;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.burger-button__icon {
+    width: 3.125rem;
+    height: 2.5rem;
+}
