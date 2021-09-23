@@ -86,6 +86,10 @@ html {
     font-size: 62.5%;
 }
 
+header, main, footer {
+    width: 100%;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -299,10 +303,34 @@ svg {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 1rem;
-    width: 87%;
+    width: 95%;
 }
 .challange__social-media .social-media-container {
     background-color: #ffd000;
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
+}
+.challange__social-media .social-media-container:hover {
+    -webkit-transform: rotate(340deg);
+            transform: rotate(340deg);
+}
+
+.footer__contact {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 5rem;
+    width: 100%;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.number-direction-container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 3rem;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 90%;
+    padding: 4rem 0;
+    border: 0.3rem solid #181d20;
 }

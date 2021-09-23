@@ -16,10 +16,14 @@
     justify-self: center;
     flex-wrap: wrap;
     gap: 1rem;
-    width: 87%;
+    width: 95%;
 
     .social-media-container {
         background-color: $color-primary;
         transform: scaleX(1);
+
+        &:hover {
+            transform: rotate(340deg);
+        }
     }
 }
