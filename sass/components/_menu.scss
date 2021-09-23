@@ -9,27 +9,6 @@
         justify-content: center;
         margin: 5.6rem 0 4rem;
     }
-    
-    .menu-tabs__items-container {
-        width: 7rem;
-        height: 7rem;
-        padding: 1rem;
-        border: 0.3rem solid $color-secondary;
-        border-radius: 50%;
-        transition: 900ms;
-        transform: scaleX(-1);
-    
-        &:hover {
-            transform: rotate(340deg);
-            background-color: $color-primary;
-        }
-    
-    }
-    
-    .menu-tabs__item {
-        width: 100%;
-        height: 100%;
-    }
 }
 
 .main__meal-menu-container {

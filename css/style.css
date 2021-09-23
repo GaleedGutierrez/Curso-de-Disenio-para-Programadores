@@ -207,6 +207,27 @@ svg {
     background-color: #181d20;
 }
 
+.circle-item-container {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    border: 0.3rem solid #181d20;
+    border-radius: 50%;
+    -webkit-transition: 900ms;
+    transition: 900ms;
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+.circle-item-container:hover {
+    -webkit-transform: rotate(340deg);
+            transform: rotate(340deg);
+    background-color: #ffd000;
+}
+.circle-item-container .circle-item {
+    width: 100%;
+    height: 100%;
+}
+
 .main__menus {
     padding: 8rem 0;
     text-align: center;
@@ -221,26 +242,6 @@ svg {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 5.6rem 0 4rem;
-}
-.main__menus .menu-tabs__items-container {
-    width: 7rem;
-    height: 7rem;
-    padding: 1rem;
-    border: 0.3rem solid #181d20;
-    border-radius: 50%;
-    -webkit-transition: 900ms;
-    transition: 900ms;
-    -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-}
-.main__menus .menu-tabs__items-container:hover {
-    -webkit-transform: rotate(340deg);
-            transform: rotate(340deg);
-    background-color: #ffd000;
-}
-.main__menus .menu-tabs__item {
-    width: 100%;
-    height: 100%;
 }
 
 .main__meal-menu-container .meal-menu__card {
@@ -267,4 +268,41 @@ svg {
 .main__meal-menu-container .button-orders {
     width: 20.5rem;
     margin-top: 4rem;
+}
+
+.main__challenge {
+    display: -ms-grid;
+    display: grid;
+    padding: 8rem 4rem;
+    background-color: #181d20;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.main__challenge .challenge__text {
+    margin: 2rem 0;
+}
+
+.challange__social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1rem;
+    width: 87%;
+}
+.challange__social-media .social-media-container {
+    background-color: #ffd000;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
 }
