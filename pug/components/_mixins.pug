@@ -7,10 +7,10 @@ mixin estilos-head-responsive(estilosResponsive)
 mixin button(contenido)
     button.button(class!=attributes.class)=contenido
 
-mixin menu-tabs-icon(nameClass,srcImg, alt)
+mixin circle-icon(nameClass,srcImg, alt)
     div(class=nameClass)
         figure(class!=attributes.class)
-            img(src=srcImg, alt=alt)
+            img(src="https://drive.google.com/uc?id="+srcImg, alt=alt)
 
 mixin meal-menu(classDiv, nameProduct, descriptionProduct, contentButton, classButton)
     div(class=classDiv)

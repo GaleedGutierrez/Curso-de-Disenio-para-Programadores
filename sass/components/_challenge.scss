@@ -1,0 +1,25 @@
+.main__challenge {
+    display: grid;
+    padding: 8rem 4rem;
+    background-color: $color-secondary;
+    text-align: center;
+    @include everything-centered;
+
+    .challenge__text {
+        margin: 2rem 0;
+    }
+}
+
+.challange__social-media {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 87%;
+
+    .social-media-container {
+        background-color: $color-primary;
+        transform: scaleX(1);
+    }
+}
