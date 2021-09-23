@@ -1,0 +1,20 @@
+@import "./components/base";
+@import "./tablet.scss";
+
+.main__meal-menu-container, .number-direction-container {
+    max-width: 1024px;
+}
+
+.main__menus {
+    .menus__menu-tabs {
+        grid-gap: 8rem;
+    }
+}
+
+.main__meal-menu-container {
+    margin: 0 auto;
+    .meal-menu__card {
+        width: 30%;
+    }
+}
+
