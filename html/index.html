@@ -12,12 +12,13 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&amp;family=Open+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../css/style.css"/>
+      <link rel="stylesheet" href="../css/tablet.css" media="screen and (min-width:800px)"/>
       <title>Steam Burger</title>
     </head>
   </head>
   <body>
     <header class="header"> 
-      <section class="header__ burger-button" aria-label="Drop-down menu icon" title="Drop-down menu icon" tabindex="0">
+      <section class="header__burger-button" aria-label="Drop-down menu icon" title="Drop-down menu icon" tabindex="0">
         <figure class="burger-button__icon">
           <svg viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -35,6 +36,17 @@
             </g>
           </svg>
         </figure>
+      </section>
+      <section class="header__header-complete">
+        <nav class="header-complete__nav"> 
+          <ul class="header-complete__ul"> 
+            <li class="header-complete__item"><a class="header-complete__text" href="#">Home</a></li>
+            <li class="header-complete__item"><a class="header-complete__text" href="#">Nosotros</a></li>
+            <li class="header-complete__item"><a class="header-complete__text" href="#">Menú</a></li>
+            <li class="header-complete__item"><a class="header-complete__text" href="#">Promociones</a></li>
+            <li class="header-complete__item"><a class="header-complete__text" href="#">Contacto</a></li>
+          </ul>
+        </nav>
       </section>
     </header>
     <main class="main">
@@ -107,8 +119,8 @@
             <p>1 lb de res con queso, verdura y pan.</p>
             <button class="button buttom-price">$20.00</button>
           </div>
-          <button class="button button-orders">Ver mi pedido (2)</button>
         </section>
+        <button class="button button-orders">Ver mi pedido (2)</button>
       </section>
       <section class="main__challenge">  
         <h4>#RetoStream </h4>
