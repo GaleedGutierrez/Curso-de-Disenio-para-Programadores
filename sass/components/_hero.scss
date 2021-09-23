@@ -1,0 +1,42 @@
+.main__hero {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 74.5rem;
+    background: url("https://drive.google.com/uc?id=1XzlRA1Bqc3d9o6OPmMGiuDmPqVY8HZBU") no-repeat center;
+    background-size: cover;
+    @include everything-centered;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    @include everything-centered;
+}
+
+.burger-icon {
+    width: 11.625rem;
+
+    .buger-icon__path {
+        fill: $color-white;
+    }
+}
+
+.hero__title,
+.hero__subtitle,
+.burger-icon {
+    margin-bottom: 4rem;
+}
+
+.hero__opacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color-black, 0.4);
+}
