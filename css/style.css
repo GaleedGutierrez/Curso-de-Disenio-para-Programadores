@@ -93,6 +93,7 @@ body {
 img,
 svg {
     width: 100%;
+    height: 100%;
 }
 
 .header {
@@ -204,4 +205,66 @@ svg {
     text-align: center;
     color: #ffd000;
     background-color: #181d20;
+}
+
+.main__menus {
+    padding: 8rem 0;
+    text-align: center;
+}
+.main__menus .menus__menu-tabs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 7rem 1rem 7rem 1rem 7rem 1rem 7rem;
+    grid-template-columns: repeat(4, 7rem);
+    grid-gap: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 5.6rem 0 4rem;
+}
+.main__menus .menu-tabs__items-container {
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+    border: 0.3rem solid #181d20;
+    border-radius: 50%;
+    -webkit-transition: 900ms;
+    transition: 900ms;
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+.main__menus .menu-tabs__items-container:hover {
+    -webkit-transform: rotate(340deg);
+            transform: rotate(340deg);
+    background-color: #ffd000;
+}
+.main__menus .menu-tabs__item {
+    width: 100%;
+    height: 100%;
+}
+
+.main__meal-menu-container .meal-menu__card {
+    display: -ms-grid;
+    display: grid;
+    width: 90%;
+    height: 40.3rem;
+    padding: 4rem;
+    margin: 3.2rem auto;
+    border: 0.3rem solid #181d20;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.main__meal-menu-container .meal-menu__card .buttom-price {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-family: "Arvo", serif;
+    font-size: 2.5rem;
+}
+.main__meal-menu-container .button-orders {
+    width: 20.5rem;
+    margin-top: 4rem;
 }
