@@ -10,7 +10,11 @@
     margin: 1.6rem auto 0;
 }
 
-.burger-button {
+.header__header-complete {
+    display: none;
+}
+
+.header__burger-button {
     display: flex;
     width: 5.9rem;
     height: 5.9rem;

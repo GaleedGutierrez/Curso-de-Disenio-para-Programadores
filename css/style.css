@@ -1,7 +1,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
     font-family: "Arvo", serif;
 }
 
@@ -27,7 +28,8 @@ h5 {
     font-size: 3rem;
 }
 
-p {
+p,
+a {
     font-size: 2rem;
 }
 
@@ -80,6 +82,8 @@ h4,
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
 }
 
 html {
@@ -113,7 +117,11 @@ svg {
     margin: 1.6rem auto 0;
 }
 
-.burger-button {
+.header__header-complete {
+    display: none;
+}
+
+.header__burger-button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -269,7 +277,8 @@ svg {
     font-family: "Arvo", serif;
     font-size: 2.5rem;
 }
-.main__meal-menu-container .button-orders {
+
+.button-orders {
     width: 20.5rem;
     margin-top: 4rem;
 }

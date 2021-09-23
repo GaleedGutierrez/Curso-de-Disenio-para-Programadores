@@ -1,0 +1,56 @@
+@import "./components/_base.scss";
+
+.header {
+    display: initial;
+    position: absolute;
+    top: 1.6rem;
+
+    &__burger-button {
+        display: none;
+    }
+
+    &__header-complete {
+        display: initial;
+        width: 100%;
+
+        .header-complete__ul {
+            display: flex;
+            justify-content: space-evenly;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .header-complete__item:hover {
+            border-bottom: 0.2rem solid $color-primary;
+            transform: translateY(-0.5rem);
+        }
+
+        .header-complete__text {
+            color: $color-white;
+        }
+    }
+}
+
+.main__meal-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .meal-menu__card {
+        width: 45%;
+    }
+}
+
+.main__menus {
+    .menus__menu-tabs {
+        grid-gap: 4rem;
+    }
+}
+
+.number-direction-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-orders {
+    width: 20.5rem;
+}

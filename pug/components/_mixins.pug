@@ -1,8 +1,8 @@
 mixin estilos-head(estilos)
     link(rel="stylesheet", href="../css/"+estilos)
 
-mixin estilos-head-responsive(estilosResponsive) 
-    link(rel="stylesheet", href="../css/"+estilosResponsive media="screen and (min-width: 800px)")
+mixin estilos-head-responsive(estilosResponsive, screen) 
+    link(rel="stylesheet", href="../css/"+estilosResponsive media="screen and (min-width:" +screen+"px)")
 
 mixin button(contenido)
     button.button(class!=attributes.class)=contenido
