@@ -1,0 +1,16 @@
+.button {
+    width: 13.686rem;
+    height: 5.6rem;
+    border: 0.3rem solid $color-secondary;
+    font-family: $font-secondary;
+    font-size: $font-size-small;
+    background-color: $color-primary;
+    transition: 450ms;
+
+    &:hover {
+        color: $color-primary;
+        background-color: $color-black;
+        border-color: $color-primary;
+        transform: translateY(-0.5rem);
+    }
+}

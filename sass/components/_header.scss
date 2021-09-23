@@ -1,0 +1,31 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: fixed;
+    z-index: 2;
+    // top: 1rem;
+    right: 0;
+    left: 0;
+    width: 95%;
+    margin: 1.6rem auto 0;
+}
+
+.burger-button {
+    display: flex;
+    width: 5.9rem;
+    height: 5.9rem;
+    border-radius: 50%;
+    background-color: $color-primary;
+    @include everything-centered;
+}
+
+.burger-button__icon {
+    width: 3.125rem;
+    height: 2.5rem;
+    transition: 450ms;
+    transform: scaleX(-1);
+
+    &:hover {
+        transform: rotate(360deg);
+    }
+}    

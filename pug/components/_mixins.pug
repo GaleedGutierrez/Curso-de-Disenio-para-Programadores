@@ -3,3 +3,6 @@ mixin estilos-head(estilos)
 
 mixin estilos-head-responsive(estilosResponsive) 
     link(rel="stylesheet", href="../css/"+estilosResponsive media="screen and (min-width: 800px)")
+
+mixin button(contenido)
+    button.button(class!=attributes.class)=contenido
