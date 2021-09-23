@@ -6,3 +6,14 @@ mixin estilos-head-responsive(estilosResponsive)
 
 mixin button(contenido)
     button.button(class!=attributes.class)=contenido
+
+mixin menu-tabs-icon(nameClass,srcImg, alt)
+    div(class=nameClass)
+        figure(class!=attributes.class)
+            img(src=srcImg, alt=alt)
+
+mixin meal-menu(classDiv, nameProduct, descriptionProduct, contentButton, classButton)
+    div(class=classDiv)
+        h4.h4--dark=nameProduct
+        p=descriptionProduct
+        +button(contentButton)(class=classButton) 
