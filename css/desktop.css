@@ -241,6 +241,10 @@ svg {
     color: #fff;
 }
 
+.main__hero {
+    background: url("https://drive.google.com/uc?id=1cccUkzNYmE33B1CziDMmNaWglBFSjqDa") no-repeat center;  
+}
+
 .main__meal-menu-container {
     display: -webkit-box;
     display: -ms-flexbox;
